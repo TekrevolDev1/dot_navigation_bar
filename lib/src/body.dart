@@ -57,6 +57,7 @@ class Body extends StatelessWidget {
                     splashColor: _selectedColor.withOpacity(0.1),
                     hoverColor: _selectedColor.withOpacity(0.1),
                     child: Container(
+                        margin: EdgeInsets.symmetric(horizontal: 10),
                         width: 40,
                         child: Center(
                           child: Stack(
